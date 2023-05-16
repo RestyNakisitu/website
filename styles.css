@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(4, 50, 255);
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.header h1{
+    font-size: 14px;
+    font-weight: bold;
+}
+body{
+    /* background: #f1f4ff; */
+} 
+
+.social-links a{
+    margin-right: 30px;
+  
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+  
+}
+
+.social-links a:hover{
+    color: rgb(255, 0, 0);
+
+}
+
+.social-links a i{
+    margin-right: 10px;
+  
+}
+
+.social-media i{
+   margin-right: 20px;
+}
+
+.social-media i:hover{
+    color: rgb(255, 0, 0);
+ }
+
+
+ .navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff;
+    /* border: 1px solid black; */
+    padding: 20px 0;
+ }
+ 
+
+ .navbar ul{
+    display: flex;
+ }
+
+ .navbar ul li{
+    list-style: none;
+    margin-right: 30px;
+ }
+
+ .navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0661ffdd;
+ }
+
+ .navbar ul li a:hover{
+    color: #4903f9dd;
+ }
+
+.search{
+    /* outline: none;
+    border: 0; */
+    /* position: relative; */
+   
+}
+
+/* .search input{
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 2px solid fff;
+    color: #0058fbdd;
+    text-align: center;
+}
+
+.search button{
+    padding: 10px 15px;
+    left: 5px;
+
+    
+} */
+
+
+.display{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(6, 6, 81, 0.869),rgba(6, 5, 50, 0.5)), url("image2.jpg");
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    display: flex;
+}
+
+.display-text{
+    width: 40%;
+    text-align: center;
+
+}
+
+.display-text h2{
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.display-text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.btn{
+    padding: 15px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 20px;
+    color: #fff;
+    border: 2px solid blue;
+    background-color:blue;
+    transition: 0.5s;
+}
+
+.btn:hover{
+   background-color: #fff;
+   color: blue;
+}
+
+#navbar {
+    overflow: hidden;
+  }
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.603);
+    z-index: 10;
+}
+
+
+.card{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    color: #4154f1;
+    font-weight: 700px;
+    text-transform: uppercase;
+    /* background-color: #f6f9ff; */
+}
+
+.card-div{
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+
+}
+
+
+.card-divs{
+    width: 22%;
+    /* border: 1px solid black; */
+    background: #fff;
+    display: grid;
+    padding: 2% 3%;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+}
+
+.card-divs h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.card-divs p{
+    margin-top: 20px;
+    font-size: 18px;
+    
+
+}
+
+
+.about{
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.about-left{
+    width: 50%;
+    padding: 3% 5%;
+    margin: auto;
+   
+
+}
+
+.about-left h1{
+    font-size: 15px;
+    font-weight: 700;
+    color: #4154f1;
+    text-transform: uppercase;
+    padding: 20px 0;
+
+}
+
+.about-left h2{
+    font-size: 20px;
+    font-weight: 700px;
+    color: #012970;
+    margin: 20px 0;
+}
+
+.about-left p{
+    font-size: 19px;
+}
+
+.about-left button{
+    background-color: #0820f7;
+    border-radius: 0;
+    margin: 30px 0;
+    padding: 10px 15px;
+}
+
+.about-right{
+    width: 50%;
+}
+
+.about-right img{
+    width: 100%;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.about-right img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.values{
+    width: 100%;
+
+} 
+
+.values h1{
+    text-align: center;
+    padding: 20px 0;
+    color: #4154f1;
+}
+
+.value{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.value-div{
+    width: 85%;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .06);
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    background: #fff;
+
+}
+
+.value-div img{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.value-div h3{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.value-div p{
+    text-align: center;
+    font-size: 17px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 100;
+}
+
+.projects{
+    width: 100%;
+}
+
+.projects h1{
+    font-size: 30px;
+    color: #4154f1;
+    font-weight: 700;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.projects-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.projects-div div{
+  width: 100%;
+  overflow: hidden;
+}
+
+
+
+.projects-div div img{
+    width: 100%;
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+
+.projects-div div:hover img{
+    transform: scale(1.4) rotate(10deg);
+
+}
+
+.contact{
+    width: 100%;
+    margin-bottom: 100px;
+    background: #fff;
+}
+
+.contact h1{
+    font-size: 20px;
+    text-align: center;
+    color: #4154f1;
+   margin-bottom: 25px;
+}
+
+.contactus{
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+
+}
+
+.contact-left{
+    width: 33%;
+    margin: auto;
+    padding: 50px;
+}
+
+.contact-left div{
+   padding: 30px;
+}
+
+.contact-left div i{
+    font-size: 20px;
+    color: #3f43fd;
+    width: 44px;
+    height: 44px;
+    background: #f0f0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    float: left;
+ }
+
+ .contact-left div h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #0a0a33;
+ }
+
+ .contact-left div p{
+    padding: 0 0 0 60px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #3f43fd;
+ }
+ 
+ .contact-right{
+    width: 67%;
+    /* border: 1px solid red; */
+
+ }
+
+ .contact-right form{
+    display: grid;
+    width: 80%;
+    margin: auto;
+
+ }
+
+ .contact-right form input,  .contact-right form textarea{
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: none;
+
+ }
+
+ .contact-right form button{
+    width: 200px;
+    margin: 0;
+    /* padding: 8px 10px; */
+ }
+ 
+
+.footer{
+    width: 100%;
+    background-color: #0a0a33;
+    padding-bottom: 100px;
+    padding-top: 100px;
+  
+
+}
+
+.footer-div{
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between; 
+
+}
+
+.footer-div div{
+    color: #fff;
+    font-size: 15px;
+    padding: 50px;
+    width: 20%;
+   
+
+
+}
+
+
+.footer-div div ul{
+    list-style: none;
+    font-size: 10px;
+    padding: 3% 2%;
+    /* margin: 20px */
+
+}
+
+
+.footer-div div ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+
+    
+}
+
+.footer-div div ul a i{
+    margin-right: 15px;
+    padding: 10px 0;
+    
+    
+}
+
+
+.footer-div div h4{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-div div h4{
+    font-size: 18px;
+    
+}
+
+
+.footer p{
+    color: #fff;
+    text-align: center;
+}
+
+.footer-div div form{
+    margin-top: 30px;
+    background: #fff;
+    padding: 10px 15px 6px 15px;
+    position: relative;
+    border-radius: 50px;
+    
+}
+
+.footer-div div form input[type=email]{
+    border: 0;
+    padding: 4px;
+    width: calc(100% - 110px);
+}
+
+.footer-div div form input[type=submit]{
+    position: absolute;
+    top: 0;
+    right: -2px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #004af7;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+}
+
+
+
+
+
+
